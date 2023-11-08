@@ -1,0 +1,2 @@
+#include "resources.h"
+ID_ICON1 ICON "tf.ico"

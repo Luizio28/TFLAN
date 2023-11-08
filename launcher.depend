@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1698962242 source:c:\users\luizio\desktop\launcher\main.c
+	<windows.h>
+	"resources.h"
+
+1698881047 source:c:\users\luizio\desktop\launcher\icon.rc
+	"resources.h"
+
+1698880967 c:\users\luizio\desktop\launcher\resources.h
+
+1698881047 source:c:\users\luizio\desktop\tflan\launcher\icon.rc
+	"resources.h"
+
+1698880967 c:\users\luizio\desktop\tflan\launcher\resources.h
+
+1699390414 source:c:\users\luizio\desktop\tflan\launcher\main.c
+	<windows.h>
+	"resources.h"
+
