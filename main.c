@@ -45,56 +45,56 @@ const char* classDescriptions[] = {
     // SCOUT
     "1. Scout (Batedor/Corredor)\r\n"
     "75 HP | 50 AP Armadura Leve\r\n"
-    "SUPORTE\r\n"
+    "Tipo: SUPORTE\r\n"
     "*Desarma a bomba do demoman\r\n"
-    "*Descobre espiıes\r\n"
+    "*Descobre espi√µes\r\n"
     "*Detecta bandeira e inimigos",
 	// SNIPER
     "2. Sniper (Atirador)\r\n"
     "90 HP | 50 AP Armadura Leve\r\n"
-    "DEFENSOR\r\n"
+    "Tipo: DEFENSOR\r\n"
     "*Headshot: 3x Dano\r\n"
-    "*Tiro na perna: Lentid„o\r\n"
+    "*Tiro na perna: Lentid√£o\r\n"
     "*Segure o clique para aumentar dano",
 	// SOLDIER
     "3. Soldier (Soldado)\r\n"
     "Tipo: ATACANTE\r\n"
     "100 HP | 200 Armadura Pesada\r\n"
-    "*Mais vers·til\r\n"
-    "*Salto-foguete (SHIFT) alcanÁa alturas\r\n",
+    "*Mais vers√°til\r\n"
+    "*Salto-foguete (SHIFT) alcan√ßa alturas\r\n",
 	// SOLDIER
-    "4. DemoMan (Cara das DemoliÁıes)\r\n"
-    "90 HP | 120 AP Armadura MÈdia\r\n"
-    "DEFENSOR\r\n"
+    "4. DemoMan (Cara das Demoli√ß√µes)\r\n"
+    "90 HP | 120 AP Armadura M√©dia\r\n"
+    "Tipo: DEFENSOR\r\n"
     "*Detone minas com MOUSE2\r\n"
     "*Bomba abre passagens em grades e bloqueios\r\n",
 	// MEDIC
-    "5. Medic (MÈdico de Combate)\r\n"
-    "90 HP | 100 AP Armadura MÈdia\r\n"
-    "ATACANTE\r\n"
+    "5. Medic (M√©dico de Combate)\r\n"
+    "90 HP | 100 AP Armadura M√©dia\r\n"
+    "Tipo: ATACANTE\r\n"
     "*Aperte [1]: Modo do Medikit (infectar / curar)\r\n"
     "*Regenera vida",
 	// HEAVY
     "6. HWGuy (Armas Pesadas)\r\n"
     "100 HP | 300 AP Armadura Pesada\r\n"
-    "DEFENSOR\r\n"
+    "Tipo: DEFENSOR\r\n"
     "*Fique parado e tenha baterias (cells) para usar metralhadora\r\n",
 	// PYRO
-    "7. Pyro (Incendi·rio)\r\n"
-    "100 HP | 150 AP Armadura MÈdia\r\n"
-    "SUPORTE\r\n"
+    "7. Pyro (Incendi√°rio)\r\n"
+    "100 HP | 150 AP Armadura M√©dia\r\n"
+    "Tipo: SUPORTE\r\n"
     "*Armadura imune ao fogo\r\n",
 	// SPY
-    "8. Spy (Espi„o)\r\n"
-    "100 HP | 90 AP Armadura MÈdia\r\n"
-    "ATACANTE\r\n"
+    "8. Spy (Espi√£o)\r\n"
+    "100 HP | 90 AP Armadura M√©dia\r\n"
+    "Tipo: ATACANTE\r\n"
     "*MOUSE2: Disfarce\r\n"
-    "*Movimento È visivel ao fingir morte\r\n",
+    "*Movimento √© visivel ao fingir morte\r\n",
 	// ENGI
-    "9. Engineer (Egenheiro)\r\n"
-    "80 HP | 50 AP Armadura MÈdia\r\n"
-    "DEFENSOR\r\n"
-    "*ConstrÛi/Melhora Sentinela e Fornecedor de Suprimentos com metal\r\n"
+    "9. Engineer (Engenheiro)\r\n"
+    "80 HP | 50 AP Armadura M√©dia\r\n"
+    "Tipo: DEFENSOR\r\n"
+    "*Constr√≥i/Melhora Sentinela e Fornecedor de Suprimentos com metal\r\n"
     "*Desarma bomba do DemoMan\r\n"
 };
 
@@ -141,13 +141,13 @@ const char* classKits[] ={
     "# ARMAS:\t\t(1) Machado\r\n"
     "(2) Shotgun\t\t(3) -\r\n"
     "(4) -\t\t\t(5) -\r\n"
-    "(6) LanÁa-Granadas\t(7) LanÁa-Minas\r\n"
+    "(6) Lan√ßa-Granadas\t(7) Lan√ßa-Minas\r\n"
     "\r\n"
     "# GRANADAS / SPECIAL:\r\n"
     "(F) Grn. Normal\t\t(G) Grn. Super\r\n"
     "(MOUSE2) Detonar Minas\t(SHIFT) Plantar Bomba\r\n",
     // medic
-    "# ARMAS:\t\t(1) Medikit / Arma BiolÛgica\r\n"
+    "# ARMAS:\t\t(1) Medikit / Arma Biol√≥gica\r\n"
     "(2) -\t\t\t(3) Super-Shotgun\r\n"
     "(4) -\t\t\t(5) Super Arma de Pregos\r\n"
     "(6) -\t\t\t(7) -\r\n"
@@ -168,11 +168,11 @@ const char* classKits[] ={
     "# ARMAS:\t\t(1) Machado\r\n"
     "(2) Shotgun\t\t(3) -\r\n"
     "(4) -\t\t\t(5) -\r\n"
-    "(6) LanÁa-Chamas\t(7) LanÁa-Fogos\r\n"
+    "(6) Lan√ßa-Chamas\t(7) Lan√ßa-Fogos\r\n"
     "\r\n"
     "# GRANADAS / SPECIAL:\r\n"
     "(F) Lata de Espinhos\t(G) Grn. de Fogo\r\n"
-    "(MOUSE2) LanÁa-Chamas\t(SHIFT) -\r\n",
+    "(MOUSE2) Lan√ßa-Chamas\t(SHIFT) -\r\n",
     // spy
     "# ARMAS:\t\t(1) Faca\r\n"
     "(2) Tranquilizante\t(3) Super-Shotgun\r\n"
@@ -180,17 +180,17 @@ const char* classKits[] ={
     "(6) -\t\t\t(7) -\r\n"
     "\r\n"
     "# GRANADAS / SPECIAL:\r\n"
-    "(F) Grn. Normal\t\t(G) Gas HalucinÛgeno\r\n"
+    "(F) Grn. Normal\t\t(G) Gas Halucin√≥geno\r\n"
     "(MOUSE2) Disfarce\t(SHIFT) Fingir Morte\r\n",
     // engi
     "# ARMAS:\t\t(1) Ferramenta\r\n"
-    "(2) Canh„o ElÈtrico\t(3) Super-Shotgun\r\n"
+    "(2) Canh√£o El√©trico\t(3) Super-Shotgun\r\n"
     "(4) -\t\t\t(5) -\r\n"
     "(6) -\t\t\t(7) -\r\n"
     "\r\n"
     "# GRANADAS / SPECIAL:\r\n"
-    "(F) Grn. Normal\t\t(G) Grn. ElÈtrica\r\n"
-    "(MOUSE2) Construir\t(SHIFT) Criar MuniÁ„o\r\n"
+    "(F) Grn. Normal\t\t(G) Grn. El√©trica\r\n"
+    "(MOUSE2) Construir\t(SHIFT) Criar Muni√ß√£o\r\n"
 };
 ;
 
@@ -230,7 +230,7 @@ COLORREF cores[] = {
 
 
 void ExecutarQuake(const char* nickname, const char* serverIP, const char* qualidadeGrafica) {
-    // Montar o comando para executar o "quake.exe" com os par‚metros
+    // Montar o comando para executar o "quake.exe" com os par√¢metros
     char comando[300];
     sprintf(comando,
         "quake.exe -game fortress +name %s +connect %s +exec video-%s +alias usercolor \"topcolor %d\" +vid_fullscreen %d +alias userclass \"impulse %d\" +alias defteam \"impulse 5\"",
@@ -268,7 +268,7 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
                 side0, tops+114, 380, 136, hwnd, NULL, NULL, NULL);
             hwndInfo = CreateWindow("Static", classDescriptions[classIndex], WS_CHILD | WS_VISIBLE,
                 side0+120, tops, 238, 110, hwnd, NULL, NULL, NULL);
-            // Cria uma caixa de texto n„o edit·vel para exibir o texto de ajuda com barra de rolagem
+            // Cria uma caixa de texto n√£o edit√°vel para exibir o texto de ajuda com barra de rolagem
             hwndHelpText = CreateWindowEx(WS_EX_CLIENTEDGE, "Edit", "", WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL,
                side0, tops+250, 356, 122, hwnd, (HMENU)5, NULL, NULL);
             // Preenche a caixa de texto com o texto de ajuda
@@ -278,19 +278,19 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             // Cria um label para o nickname
             CreateWindow("Static", "Nome:", WS_CHILD | WS_VISIBLE,
                 side1, tops+106, 120, 24, hwnd, NULL, NULL, NULL);
-            // Cria um campo de ediÁ„o de texto para o nickname
+            // Cria um campo de edi√ß√£o de texto para o nickname
             hwndEditName = CreateWindowEx(0, "Edit", "", WS_CHILD | WS_VISIBLE | WS_BORDER,
                 side1+120, tops+106, 130, 24, hwnd, (HMENU)1, NULL, NULL);
             // Cria um label para a Cor
             CreateWindow("Static", "Cor Pessoal:", WS_CHILD | WS_VISIBLE,
                 side1, tops+130, 120, 24, hwnd, NULL, NULL, NULL);
-            // aumentar o n˙mero de cor
+            // aumentar o n√∫mero de cor
             hwndMinusButton = CreateWindow("BUTTON", "<-", WS_CHILD | WS_VISIBLE,
                 side1+120, tops+130, 40, 24, hwnd, (HMENU)20, NULL, NULL);
-            // diminuir o n˙mero de cor
+            // diminuir o n√∫mero de cor
             hwndPlusButton = CreateWindow("BUTTON", "->", WS_CHILD | WS_VISIBLE,
                 side1+120+90, tops+130, 40, 24, hwnd, (HMENU)21, NULL, NULL);
-            // Crie uma ·rea para exibir a amostra de cor
+            // Crie uma √°rea para exibir a amostra de cor
             hwndCorSample = CreateWindow("STATIC", NULL, WS_CHILD | WS_VISIBLE | SS_CENTERIMAGE,
                 side1+120+40, tops+130, 50, 24, hwnd, NULL, NULL, NULL);
             hBrushCorSample = CreateSolidBrush(cores[numeroCor]);
@@ -309,29 +309,29 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             // Cria um label para o IP do servidor
             CreateWindow("Static", "IP do Servidor:", WS_CHILD | WS_VISIBLE,
                 side1, tops+200, 120, 24, hwnd, NULL, NULL, NULL);
-            // Cria um campo de ediÁ„o de texto para o IP do servidor
+            // Cria um campo de edi√ß√£o de texto para o IP do servidor
             hwndEditIP = CreateWindowEx(0, "Edit", "", WS_CHILD | WS_VISIBLE | WS_BORDER,
                 side1+120, tops+200, 130, 24, hwnd, (HMENU)2, NULL, NULL);
-            // Cria um label para a Qualidade Gr·fica
+            // Cria um label para a Qualidade Gr√°fica
             CreateWindow("Static", "Qualidade:", WS_CHILD | WS_VISIBLE,
                 side1, tops+224, 120, 24, hwnd, NULL, NULL, NULL);
-            // Cria um menu suspenso (dropdown) para a qualidade gr·fica
+            // Cria um menu suspenso (dropdown) para a qualidade gr√°fica
             hwndComboQuality = CreateWindowEx(0, "COMBOBOX", NULL, WS_CHILD | WS_VISIBLE | CBS_DROPDOWNLIST | WS_BORDER,
                 side1+120, tops+224, 130, 200, hwnd, (HMENU)3, NULL, NULL);
             SendMessage(hwndComboQuality, CB_SETCURSEL, 1, 0);
-            // Adiciona opÁıes ao menu suspenso
+            // Adiciona op√ß√µes ao menu suspenso
             SendMessage(hwndComboQuality, CB_ADDSTRING, 0, (LPARAM)"Rapido");
             SendMessage(hwndComboQuality, CB_ADDSTRING, 0, (LPARAM)"Fiel");
-            // Seleciona a primeira opÁ„o por padr„o
+            // Seleciona a primeira op√ß√£o por padr√£o
             SendMessage(hwndComboQuality, CB_SETCURSEL, 1, 0);
-            // Cria um bot„o "Executar Quake"
+            // Cria um bot√£o "Executar Quake"
             CreateWindow("Button", "Iniciar TF", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
                 side1, tops+250, 135, 30, hwnd, (HMENU)4, NULL, NULL);
-            // Crie a caixa de seleÁ„o para tela cheia com o estilo BS_AUTOCHECKBOX
+            // Crie a caixa de sele√ß√£o para tela cheia com o estilo BS_AUTOCHECKBOX
             hwndFullscreenCheckBox = CreateWindow("BUTTON", "Tela Cheia", WS_CHILD | WS_VISIBLE | BS_AUTOCHECKBOX,
                 side1+150, tops+250, 100, 30, hwnd, (HMENU)40, NULL, NULL);
 
-            // Carregue o Ìcone a partir dos recursos
+            // Carregue o √≠cone a partir dos recursos
             HINSTANCE hInstance = ((LPCREATESTRUCT)lParam)->hInstance;
             HICON hIcon = LoadIcon (hInstance, MAKEINTRESOURCE (IDI_ICON1));
             SendMessage (hwnd, WM_SETICON, ICON_BIG, (LPARAM)hIcon);
@@ -339,9 +339,9 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             break;
         case WM_CTLCOLORSTATIC:
             {
-                // Verifique se o controle est·tico È a ·rea de prÈvia de cor
+                // Verifique se o controle est√°tico √© a √°rea de pr√©via de cor
                 if ((HWND)lParam == hwndCorSample) {
-                    // Altere a cor de fundo do controle est·tico (·rea de amostra de cor)
+                    // Altere a cor de fundo do controle est√°tico (√°rea de amostra de cor)
                     HDC hdcStatic = (HDC)wParam;
                     SetBkColor(hdcStatic, cores[numeroCor]);
                     return (LRESULT)hBrushCorSample;
@@ -356,7 +356,7 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             break;
         case WM_COMMAND:
             if (LOWORD(wParam) == 4) {
-                // Quando o bot„o "Executar Quake" È pressionado
+                // Quando o bot√£o "Executar Quake" √© pressionado
                 char nickname[100];
                 char serverIP[100];
                 char qualidadeGrafica[100];
@@ -364,41 +364,41 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
                 GetWindowText(hwndEditName, nickname, sizeof(nickname));
                 GetWindowText(hwndEditIP, serverIP, sizeof(serverIP));
 
-                // ObtÈm o Ìndice da opÁ„o selecionada no menu suspenso
+                // Obt√©m o √≠ndice da op√ß√£o selecionada no menu suspenso
                 int selectedIndex = SendMessage(hwndComboQuality, CB_GETCURSEL, 0, 0);
 
-                // ObtÈm o texto da opÁ„o selecionada
+                // Obt√©m o texto da op√ß√£o selecionada
                 SendMessage(hwndComboQuality, CB_GETLBTEXT, selectedIndex, (LPARAM)qualidadeGrafica);
 
-                // Executa o "quake.exe" com os par‚metros apropriados
+                // Executa o "quake.exe" com os par√¢metros apropriados
                 DestroyWindow(hwnd);
                 ExecutarQuake(nickname, serverIP, qualidadeGrafica);
 
             }
             if (LOWORD(wParam) == 21) {
-             // Bot„o "+" pressionado
+             // Bot√£o "+" pressionado
                 numeroCor = (numeroCor + 1) % 15; // Circula entre 0 e 14
                 DeleteObject(hBrushCorSample); // Libere o pincel antigo
                 hBrushCorSample = CreateSolidBrush(cores[numeroCor]); // Crie um novo pincel com a nova cor
-                InvalidateRect(hwndCorSample, NULL, TRUE); // Redesenhe a ·rea da amostra de cor
+                InvalidateRect(hwndCorSample, NULL, TRUE); // Redesenhe a √°rea da amostra de cor
             } else if (LOWORD(wParam) == 20) {
-             // Bot„o "-" pressionado
+             // Bot√£o "-" pressionado
                 numeroCor = (numeroCor + 14) % 15; // Circula entre 0 e 14
                 DeleteObject(hBrushCorSample); // Libere o pincel antigo
                 hBrushCorSample = CreateSolidBrush(cores[numeroCor]); // Crie um novo pincel com a nova cor
-                InvalidateRect(hwndCorSample, NULL, TRUE); // Redesenhe a ·rea da amostra de cor
+                InvalidateRect(hwndCorSample, NULL, TRUE); // Redesenhe a √°rea da amostra de cor
             }
             if (LOWORD(wParam) == 40) {
-                // Caixa de seleÁ„o foi clicada
+                // Caixa de sele√ß√£o foi clicada
                 telaCheia = IsDlgButtonChecked(hwnd, 40);
             }
             if (LOWORD(wParam) == 6) {
-                // ObtÈm o Ìndice da classe selecionada no menu drop-down
+                // Obt√©m o √≠ndice da classe selecionada no menu drop-down
                 classIndex = SendMessage(hwndClassDropdown, CB_GETCURSEL, 0, 0);
 
-                // Verifica se o Ìndice est· dentro dos limites v·lidos
+                // Verifica se o √≠ndice est√° dentro dos limites v√°lidos
                 if (classIndex >= 0 && classIndex < sizeof(classDescriptions) / sizeof(classDescriptions[0])) {
-                    // Define o texto da descriÁ„o da classe na caixa de texto
+                    // Define o texto da descri√ß√£o da classe na caixa de texto
                     SetWindowText(hwndKit, classKits[classIndex]);
                     SetWindowText(hwndInfo, classDescriptions[classIndex]);
                     // Define a nova imagem da classe
@@ -441,7 +441,7 @@ LRESULT CALLBACK janelaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPar
             break;
 
         case WM_CLOSE:
-            // Fecha a janela quando o bot„o Fechar È pressionado
+            // Fecha a janela quando o bot√£o Fechar √© pressionado
             DestroyWindow(hwnd);
             if (hBitmap != NULL) {
                 DeleteObject(hBitmap);
